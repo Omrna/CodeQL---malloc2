@@ -14,10 +14,10 @@ int main(int argc, char *argv[])
     int a, b, c, d; /* other variables, not used here.*/
 
   
-    // char *str = malloc(strlen("hello"));
-    // char *str2 = malloc(strlen("hello")+0);
-    // char *str2 = malloc(strlen("hello")-1);
-    // char *str3 = malloc(strlen("hello")+1);
+    char *str = malloc(strlen("hello"));
+    char *str2 = malloc(strlen("hello")+0);
+    char *str2 = malloc(strlen("hello")-1);
+    char *str3 = malloc(strlen("hello")+1);
   
     return 0;
 }
